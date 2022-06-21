@@ -1,3 +1,18 @@
-h1{
-color:red;
+h1, h2, h3{
+text-align: center;
+}
+
+root{
+    --border-button: 1px solid green;
+}
+.container{
+    display: flex;
+    justify-content:center;
+    margin: 20px;
+}
+
+.container a{
+    padding: 20px;
+    background-color: aqua;
+    border: var(--border-button);
 }
